@@ -18,17 +18,6 @@ The code is split so that the project specific modulation logic is reproducible,
 - `config/params.yaml`  
   Example parameters for image intrinsics, RCM settings, and cylinder obstacle geometry.
 
-## Important note
-
-This is **not** a drop-in replacement for the original internal controller.
-
-It is a clean teaching and review version intended to show:
-
-1. the ROS 2 data flow,
-2. how a nominal camera velocity is passed through a modulation layer,
-3. how cylindrical obstacle geometry is used to locally reshape the velocity field,
-4. where proprietary or non-public pieces would sit in the control pipeline.
-
 ## Build
 
 Place this folder inside a ROS 2 workspace under `src/`, then build:
