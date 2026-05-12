@@ -2,7 +2,7 @@
 
 This repository contains a cleaned-up ROS 2 C++ structure for a laparoscope visual-servoing controller with an obstacle-aware dynamical-system modulation layer.
 
-The code is intentionally split so that the project-specific modulation logic is reproducible, while proprietary or non-public controller logic from the original Optosurgical system is represented only as high-level placeholder logic.
+The code is split so that the project specific modulation logic is reproducible, while proprietary logic from the original system is represented as high-level placeholder logic.
 
 ## What is included
 
